@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PackageManifest
+    Version="2.0.0"
+    xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <Metadata>
+        <ID>vscode-theme-changer</ID>
+        <Version>0.0.1</Version>
+        <Name>VSCode Theme Changer</Name>
+        <Description>Changes VSCode theme based on time of day.</Description>
+        <Publisher>vscode-theme-changer</Publisher>
+        <LicenseUrl>https://github.com/Petyok/VSCodeThemeChanger/blob/main/LICENSE</LicenseUrl>
+        <Icon>./icon.png</Icon>
+    </Metadata>
+    <Files>
+        <File>
+            <Source>out/</Source>
+            <Target>extension</Target>
+        </File>
+    </Files>
+</PackageManifest>
